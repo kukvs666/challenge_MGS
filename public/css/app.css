@@ -11100,3 +11100,21 @@ a.text-dark:focus {
   }
 }
 
+.social {
+  display: -webkit-box;
+  display: flex;
+  max-height: 20px;
+}
+
+.container {
+  margin-left: 0px;
+}
+
+.icon {
+  height: 20px;
+}
+
+.flag {
+  height: 20px;
+}
+

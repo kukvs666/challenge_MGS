@@ -7,5 +7,19 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+.social {
+    display: flex;
+    max-height: 20px;
+}
+.container {
+    margin-left: 0px;
+}
+.icon {
+    height: 20px;
+}
+
+.flag {
+    height: 20px;
+}
 
 
