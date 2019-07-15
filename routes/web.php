@@ -27,9 +27,6 @@ Route::get('page3/{id}', function ($id) {
     return view('page3',['id' => $id]);
 });
 
-Route::get('challenge', function () {
-    return view('challenge');
-});
 
 Route::get('mjml', function () {
     $mjml = '/home/vagrant/code/essai/node_modules/.bin/mjml';
@@ -43,3 +40,13 @@ Route::get('mjml', function () {
     shell_exec($mjml . ' temp.mjml -o sortie.html');
     return shell_exec('cat sortie.html');
     });
+
+
+// Toute les routes précédente ne doivent pas être prise en compte, c'est mon sandbox.
+//      |
+//      V
+
+Route::get('challenge', function () {
+    return view('challenge');
+});
+
