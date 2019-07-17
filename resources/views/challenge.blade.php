@@ -1,4 +1,13 @@
 @extends('layout')
-<div id="app">
-    <calendar-tool-component></calendar-tool-component>
-</div>
+
+@section('title')
+    Villa Belle
+@endsection
+
+@section('carousel')
+    @include('components/carousel')
+@endsection
+
+@section('sideMenu')
+    @include('components/sideMenu')
+@endsection

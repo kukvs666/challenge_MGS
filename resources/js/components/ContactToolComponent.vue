@@ -11,13 +11,13 @@
                         <a href="tel:0633873411">06 33 87 34 11</a>
                     </div>
                     <div class="col-xs-2">
-                        <img src="img/map.svg" alt="adresse" v-on:click="enable" class="map-icon icon">
+                        <img src="img/menu/Map.svg" alt="adresse" v-on:click="enable" class="map-icon icon">
                     </div>
                     <div class="col-xs-2">
-                        <img src="img/email.svg" alt="Email" class="enveloppe-icon icon" v-on:click="enable">
+                        <img src="img/menu/Email.svg" alt="Email" class="enveloppe-icon icon" v-on:click="enable">
                     </div>
                     <div class="col-xs-2">
-                        <img src="img/flag-EN.svg" alt="choix langue" v-on:click="enable" class="flag-icon flag">
+                        <img src="img/menu/Flag-EN.svg" alt="choix langue" v-on:click="enable" class="flag-icon flag">
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@
                 info: [
                     {active: true,content: '<div class="adresse "><p>254 Chemin de la Farèle</p><p>83500 La Seyne Sur Mer</p></div>'},
                     {active: false, content:'<div class="email "><p>quentin.gaubert@wanadoo.fr</p></div>'},
-                    {active: false, content: '<div class="langue "><a href="#"><img class="contryFlag flag" src="img/flag-FR.svg" alt="Drapeau Francais"></a><a href="#"><img class="contryFlag flag" src="img/flag-EN.svg" alt="Drapeau Anglais"></a></div>'}
+                    {active: false, content: '<div class="langue "><a href="#"><img class="contryFlag flag" src="img/menu/Flag-FR.svg" alt="Drapeau Francais"></a><a href="#"><img class="contryFlag flag" src="img/menu/Flag-EN.svg" alt="Drapeau Anglais"></a></div>'}
                     ]
             }
         },
