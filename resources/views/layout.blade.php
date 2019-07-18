@@ -6,11 +6,13 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
-    @yield('carousel')
-    @yield('sideMenu')
-    @yield('booking')
-    @yield('remise')
-    @yield('description')
+    <div id="app">
+        @yield('carousel')
+        @yield('sideMenu')
+        @yield('booking')
+        @yield('remise')
+        @yield('info')
+    </div>
     <script src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>

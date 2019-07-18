@@ -4,14 +4,24 @@
     Villa Belle
 @endsection
 
-@section('carousel')
-    @include('components/carousel')
-@endsection
-
 @section('sideMenu')
     @include('components/sideMenu')
 @endsection
 
-<div id="app">
-   <calendar-tool-component></calendar-tool-component>
-</div>
+@section('carousel')
+    @include('components/carousel')
+@endsection
+
+@section('booking')
+    @include('components/booking')
+@endsection
+
+@section('remise')
+    @include('components/remise')
+@endsection
+
+@section('info')
+    @include('components/info')
+@endsection
+
+

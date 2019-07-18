@@ -1,7 +1,8 @@
 <template>
-    <div class="d-flex flex-column p-2 deux" id="blockDate">
-        <div class="d-flex flex-row p-2 trois">
-            <img src="img/booking/Calendar.svg" alt="logo calendrier" class="calendar-svg">
+    <div class="d-flex flex-column deux" id="blockDate">
+        <div class="d-flex flex-row p-2 header">
+
+            <img src="img/booking/AddCalendar.svg" alt="logo calendrier" class="calendar-svg">
             <p>arrivée</p>
         </div>
         <input type="date" id="selectDate" v-on:change="maj">
@@ -61,6 +62,9 @@
         top: 0px;
         left: 0px;
         opacity: 0;
+    }
+    #blockDate .header {
+        background-color:black;
     }
     .calendar-svg {
         background-color: black;
