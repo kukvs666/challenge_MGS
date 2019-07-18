@@ -63,6 +63,9 @@
         left: 0px;
         opacity: 0;
     }
+    #blockDate {
+        position: relative;
+    }
     #blockDate .header {
         background-color:black;
     }
